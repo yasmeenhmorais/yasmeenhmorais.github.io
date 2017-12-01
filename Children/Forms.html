@@ -1,0 +1,97 @@
+<html>
+
+<head>
+<title>Forms</title>
+</head>
+
+<body>
+<h1>Got plenty of info, give me some fooorms!</h1>
+
+<form action=file:///Users/Simone/Desktop/Yasmeen/Web/Database.html method=post>
+<fieldset>
+<legend>
+<i>Your Details</i>
+</legend>
+<br />
+<label>
+Username:
+<input type=text name=username maxlength=100 required=required />
+</label>
+<br /><br />
+<label>
+Password:
+<input type=password name=password maxlength=30 required=required />
+</label>
+<br /><br />
+<input type=submit value=Submit />
+</fieldset>
+<br /><br />
+<fieldset>
+<legend>
+<label for=search><i>Your search</i></label>
+</legend>
+<br />
+<input type=search name=search id=search />
+<input type=submit value=Search />
+<br /><br />
+<label>
+Date:
+<input type=date name=search />
+</label>
+<br /><br />
+</fieldset>
+<br /><br />
+<fieldset>
+<legend>
+<i>Your Review</i>
+</legend>
+<br />
+<label for=referrer>
+How did you hear about us?
+</label>
+<select name=referrer id=referrer>
+<option value=me>From you</option>
+<option value=link>You sent me a link</option>
+<option value=image>You sent me this image</option>
+<option value=force>You forced me to</option>
+<option value=nochoice>I had no choice</option>
+<option value=stop>Please make this stop</option>
+</select>
+<br /><br />
+Would you visit again?
+<label>
+<input type=radio name=rating value=yes />
+Yes
+</label>
+<label>
+<input type=radio name=rating value=no />
+Absolutely!
+</label>
+<label>
+<input type=radio name=rating value=maybe />
+Not a doubt in my cold heart.
+</label>
+<br /><br />
+<label>
+Comments:
+<br />
+<textarea placeholder=Insert_Your_Compliments>
+</textarea>
+</label>
+<br /><br />
+<label>
+<input type=checkbox name=subscribe checked=checked />
+Sign me up for updates! <br /><b>Do not</b> - I repeat - <b>do not</b> uncheck this box. Or bad things will happen.
+</label>
+<br /><br />
+<input type=image src=../Images/Interface/Buttons/Submit.jpg />
+</fieldset>
+</form>
+
+
+<hr />
+<p>Clique <a href=../Index.html>aqui</a> para voltar ao início da página inicial.</p>
+<p>E <a href=../Index.html#links>aqui</a> para voltar aos links da página inicial.</p>
+</body>
+
+</html>
